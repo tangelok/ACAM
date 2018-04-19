@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Playfair+Display:400,700');
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+p {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* ==========================================================================
+   Grid Systems:
+   ========================================================================== */
+.col-1-3 {
+  flex-basis: 32%;
+}
+.col-2-3 {
+  flex-basis: 65%;
+}
+.row {
+  display: flex;
+}
+.home-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+/* ==========================================================================
+   Home
+   ========================================================================== */
