@@ -35,10 +35,10 @@ a {
    Grid Systems:
    ========================================================================== */
 .col-1-3 {
-  flex-basis: 33%;
+  flex-basis: 35%;
 }
 .col-2-3 {
-  flex-basis: 66%;
+  flex-basis: 64%;
 }
 .col-1-2 {
   flex-basis: 50%;
@@ -64,14 +64,26 @@ nav ul {
    ========================================================================== */
 .home-wrapper {
   display: flex;
-  margin: 0px 30px 10px 10px;
+  padding: 50px 0px;
 }
 #home h1 {
   text-align: center;
 }
-.about-para {
-  padding: 0px 150px 0px 150px;
+.home-img {
+  background-image: url(../img/studio.jpg);
+  background-size: cover;
+}
+.about {
+  padding: 180px;
+  background-image: url(../img/acam.jpg);
+  background-size: cover;
+}
+.about-text {
+  padding: 0px 250px 20px 250px;
   text-align: center;
+}
+.home-vod {
+  padding: 20px;
 }
 .home-vod-logo {
   display: flex;
@@ -90,13 +102,30 @@ nav ul {
 .shows-wrapper {
   display: flex;
   justify-content: space-around;
-  margin: 0px 30px 10px 10px;
+  padding: 20px;
 }
 .host-shows {
   margin-bottom: 10px;
 }
 .host-shows-text {
   padding: 50px 80px 50px 40px;
+}
+.schedule-link a {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-decoration: none;
+}
+.schedule-link {
+  text-align: center;
+}
+.aside {
+  padding: 20px;
+}
+input, form button, textarea {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
  /* ==========================================================================
   Footer
