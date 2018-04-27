@@ -31,9 +31,11 @@ a {
 }
 body {
   color: #072845;
-  background-color: #D6D2BA;
+  text-align: center;
 }
-
+hr {
+  margin: 0px 100px;
+}
 
 /* ==========================================================================
    Grid Systems:
@@ -46,6 +48,9 @@ body {
 }
 .col-1-2 {
   flex-basis: 50%;
+}
+.col-1-4 {
+  flex-basis: 23%;
 }
 .row {
   display: flex;
@@ -64,22 +69,17 @@ nav li a {
   color: #072845;
 }
 nav ul {
-  text-align: center;
+  text-align: right;
 }
 /* ==========================================================================
    Home
    ========================================================================== */
 .home-wrapper {
   display: flex;
-  padding: 20px;
-  background-color: #FAF9E6;
+  padding: 100px;
 }
 #home h1 {
   text-align: center;
-}
-.home-img {
-  background-image: url(../img/studio.jpg);
-  background-size: cover;
 }
 .about {
   padding: 180px;
@@ -87,8 +87,14 @@ nav ul {
   background-size: cover;
 }
 .about-text {
-  padding: 0px 250px 20px 250px;
+  padding: 0px 240px 20px 240px;
   text-align: center;
+}
+.about h1 {
+  font-size: 36px;
+}
+.about p {
+  font-size: 18px;
 }
 .home-vod {
   padding: 20px;
@@ -112,20 +118,20 @@ button {
   background-color: none;
   border: 2px solid #7F2724;
 }
+#hosts {
+  padding: 100px;
+}
+.host-shows {
+  display: flex;
+  justify-content: space-between;
+}
 /* ==========================================================================
    Shows
 ========================================================================== */
 .shows-wrapper {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
-  background-color: #EDECDA;
-}
-.host-shows {
-  margin-bottom: 10px;
-}
-.host-shows-text {
-  padding: 50px 80px 50px 40px;
+  padding: 100px;
 }
 .schedule-link a {
   text-align: center;
@@ -150,6 +156,9 @@ input, form button, textarea {
   margin: 10px;
   padding: 10px;
 
+}
+#textblocks {
+  padding: 50px 100px 100px 100px;
 }
  /* ==========================================================================
   Footer
