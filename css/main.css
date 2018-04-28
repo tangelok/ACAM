@@ -97,7 +97,7 @@ nav ul {
   font-size: 18px;
 }
 .home-vod {
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
 .home-vod-logo {
@@ -158,7 +158,8 @@ input, form button, textarea {
 
 }
 #textblocks {
-  padding: 50px 100px 100px 100px;
+  padding: 50px 250px 100px 250px;
+  text-align: center;
 }
  /* ==========================================================================
   Footer
